@@ -1,0 +1,16 @@
+Package: TTmomentRcpp
+Type: Package
+Title: Sampling and Calculating the First and Second Moments for the Doubly Truncated Multivariate t Distribution
+Version: 0.1.0
+Author: Hsiu J. Ho, Tsung-I Lin, Wan-Lun Wang, Aldo M. Garay, Victor H. Lachos, and Mauricio Castro
+Maintainer: Hsiu J. Ho <hsiujho@gmail.com>
+Description: Computing the first two moments of the truncated multivariate t (TMVT) distribution under the double truncation. Appling the slice sampling algorithm to generate random variates from the TMVT distribution.
+License: GPL-2
+LazyData: TRUE
+Imports:Rcpp (>= 0.12.5),
+    RcppArmadillo,
+    mvtnorm
+LinkingTo:Rcpp,
+    RcppArmadillo,
+    mvtnorm
+Depends: RcppArmadillo,mvtnorm
